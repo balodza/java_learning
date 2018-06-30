@@ -2,7 +2,7 @@ package n3.arrays;
 
 public class ArrayTask4 {
     public static void main(String[] args) {
-        String [] arr = {"tfjf", "txt", "wekjfwer", "frfr", "nnnnn", "r", "txt", "ewf", "ttt", "txt", "txt"};
+        String [] arr = {"qwerty", "txt", "test1", "test2", "nnnnn", "r", "txt", "test3", "ttt", "txt", "txt"};
         boolean dublicate;
 
         for (int i = 0; i < arr.length; i++) {
