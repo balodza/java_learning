@@ -49,6 +49,7 @@ public class Task1 {
         System.out.println("==================================");
 
         // third solution:
+        switchCondition = "test";
         switch (switchCondition) {
             case "too less":
                 System.out.println(switchCondition);
@@ -59,6 +60,8 @@ public class Task1 {
             case "too big":
                 System.out.println(switchCondition);
                 break;
+                default:
+                    System.out.println("This is default action.");
         }
         System.out.println("==================================");
 
