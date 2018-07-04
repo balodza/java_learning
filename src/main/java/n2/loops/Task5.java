@@ -63,7 +63,7 @@ public class Task5 {
             number++;
             if (number%2 == 0){
                 sum+=number;
-            }continue;
+            }
         }
         System.out.println(sum);
 
@@ -75,10 +75,8 @@ public class Task5 {
         do{
             if (number%2 == 0){
                 sum+=number;
-                number++;
-            }else {
-                number++;
             }
+            number++;
         }while (number <= 100);
         System.out.println(sum);
 
@@ -91,9 +89,11 @@ public class Task5 {
             if (number % 2 == 0) {
                 sum += number;
             }
-            if (number <= 100) {
+            if (number > 100) {
+                break;
+            } else {
                 number++;
-            } else break;
+            }
         }
         System.out.println(sum);
     }
