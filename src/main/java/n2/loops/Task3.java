@@ -19,31 +19,31 @@ package n2.loops;
 
 public class Task3 {
     public static void main(String[] args) {
-        String s1 = "*";
-        String s2 = "*";
-        String s3 = "*";
+        String s = new String();
 
         // solution 1
         for (int i = 0; i < 10; i++){
-            System.out.println(s1);
-            s1+="*";
+            s+="*";
+            System.out.println(s);
         }
         System.out.println("-----------------------");
 
         // solution 2
+        s ="";
         for (int k = 0; k < 10; ){
             k++;
-            System.out.println(s2);
-            s2+="*";
+            s+="*";
+            System.out.println(s);
         }
         System.out.println("-----------------------");
 
         // solution 3
+        s ="";
         for (int j = 0; ; ){
             if (j < 10){
                 j++;
-                System.out.println(s3);
-                s3+="*";
+                s+="*";
+                System.out.println(s);
             }else break;
 
         }
