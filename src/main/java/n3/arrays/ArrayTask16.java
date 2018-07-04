@@ -2,6 +2,10 @@ package n3.arrays;
 
 import java.util.Arrays;
 
+/*
+- написати програму яка друкує всі елементи із значень матриці ( двовимірного масиву int[][] arr = ... )
+ */
+
 public class ArrayTask16 {
     public static void main(String[] args) {
         int i, k;

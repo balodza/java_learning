@@ -2,6 +2,10 @@ package n3.arrays;
 
 import java.util.Arrays;
 
+/*
+- написати програму яка видаляє задане значення з масиву
+*/
+
 public class ArrayTask9 {
     public static void main(String[] args) {
         int[] arr = {-5, 0, 1, 2, 3, 5, 28, 6, 8, 11, 56, 9};

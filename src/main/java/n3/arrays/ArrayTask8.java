@@ -1,4 +1,7 @@
 package n3.arrays;
+/*
+- написати програму яка рахує середнє значення елементів масиву значення яких є в проміжку [10, 25] та є кратними 3
+ */
 
 public class ArrayTask8 {
     public static void main(String[] args) {

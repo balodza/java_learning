@@ -1,6 +1,9 @@
 package n3.arrays;
 
 import java.util.Arrays;
+/*
+- написати програму яка копіює частину масива використовуючи Arrays
+ */
 
 public class ArrayTask15 {
     public static void main(String[] args) {

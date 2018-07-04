@@ -2,6 +2,18 @@ package n2.loops;
 
 import java.util.Scanner;
 
+/*
+- написати програму яка виводить в консоль квадрат заданого розміру ( приклад 4 ):
+****
+****
+****
+****
+використовуючи цикли :
+	- while
+	- do while
+	- while(true)... використовуючи continue/break
+ */
+
 public class Task4 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

@@ -1,5 +1,9 @@
 package n3.arrays;
 
+/*
+- написати програму яка шукає однакові значення масиву ( дублікати )
+*/
+
 public class ArrayTask4 {
     public static void main(String[] args) {
         String [] arr = {"qwerty", "txt", "test1", "test2", "nnnnn", "r", "txt", "test3", "ttt", "txt", "txt"};

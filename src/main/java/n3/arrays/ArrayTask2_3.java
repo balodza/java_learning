@@ -1,5 +1,8 @@
 package n3.arrays;
 
+
+/* - написати програму яка шукає мінімальне значення масиву
+   - написати програму яка шукає максимальне  значення масиву */
 public class ArrayTask2_3 {
     public static void main(String[] args) {
         int [] arr = new int [7];

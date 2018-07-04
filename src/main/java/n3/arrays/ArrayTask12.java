@@ -2,6 +2,9 @@ package n3.arrays;
 
 import java.util.Arrays;
 
+/*
+- написати програму яка сортує елементи масива ( вручну, не юзаючи Arrays )
+ */
 public class ArrayTask12 {
     public static void main(String[] args) {
         int[] arr = {0, -5, 2, 1, 3, 5, 28, 6, 8, 11, 56, 9};

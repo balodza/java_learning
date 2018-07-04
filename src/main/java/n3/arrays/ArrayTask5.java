@@ -1,5 +1,9 @@
 package n3.arrays;
 
+/*
+- написати програму яка рахує суму парних елементів масиву
+*/
+
 public class ArrayTask5 {
     public static void main(String[] args) {
         int [] arr = { -5, 0, 1, 2, 3, 5, 6, 8, 11, 56, 87, 54, 34, 9, 80, 81, -100};

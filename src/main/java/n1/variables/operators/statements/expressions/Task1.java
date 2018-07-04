@@ -2,6 +2,16 @@ package n1.variables.operators.statements.expressions;
 
 import java.util.Scanner;
 
+
+/*- написати програму яка присвоює змінній типу String значення на основні змінної типу int:
+	"too less" : коли значення заданої змінної менші чим 100
+	"its okay" : коли значення заданої змінної в межах [100, 100500]
+	"too big"  : коли значення заданої змінної більші чим 100500
+	використовуючи:
+	- if.. if ... if ...
+	- if .. else if ... else
+	- switch(...) ... case1... case2 ... */
+
 public class Task1 {
 
     public static void main(String[] args) {

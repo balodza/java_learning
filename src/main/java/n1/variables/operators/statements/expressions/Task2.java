@@ -2,6 +2,9 @@ package n1.variables.operators.statements.expressions;
 
 import java.util.Scanner;
 
+/*- Написати програму яка рахує квадратне рівняння.
+( Квадратное уравнение — уравнение вида ax2 + bx + c = 0, где a, b, c — некоторые числа (a ≠ 0), x — неизвестное.)*/
+
 public class Task2 {
     public static void main(String[] args) {
         Scanner scaner = new Scanner(System.in);

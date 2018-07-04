@@ -2,6 +2,9 @@ package n3.arrays;
 
 import java.util.Arrays;
 
+/*
+- написати програму яка парні елементи масива копіює в масив#2 а непарні в масив#3
+*/
 public class ArrayTask11 {
     public static void main(String[] args) {
         int[] arr = {-5, 0, 1, 2, 3, 5, 28, 6, 8, 11, 56, 9};

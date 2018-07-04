@@ -1,5 +1,15 @@
 package n2.loops;
 
+/*
+- написати програми які рахують суму парних чисел від 0 до 100 використовуючи :
+	- for (int i=0; {умова}; {крок})
+	- for (int i=0; {умова};)
+	- for (int i=0;;)
+	- while
+	- do while
+	- while(true)... використовуючи continue/break
+*/
+
 public class Task5 {
     public static void main(String[] args) {
         int sum1 = 0;

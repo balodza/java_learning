@@ -2,6 +2,10 @@ package n3.arrays;
 
 import java.util.Arrays;
 
+/*
+- написати програму яка копіює всі значення з трьох ( пяти, десяти, ... ) масивів в четвертий
+ */
+
 public class ArrayTask17 {
     public  static int index = 0, numOfArrays = 3, k, j, g;
 
