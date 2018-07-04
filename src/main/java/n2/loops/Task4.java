@@ -55,7 +55,6 @@ public class Task4 {
             }
             if (counter3 < number){
                 System.out.println();
-                continue;
             }else {
                 break;
             }
