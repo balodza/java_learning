@@ -11,7 +11,7 @@ public class ArrayTask1 {
 
         for (String i:arr) {
 
-            if (i == a){
+            if (i.equals(a)){
                 counter++;
             }
         }
