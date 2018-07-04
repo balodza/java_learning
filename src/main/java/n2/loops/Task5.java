@@ -43,14 +43,14 @@ public class Task5 {
         System.out.println('\n' + "for-loop implementation #3 ");
         sum = 0;
         for (int i = 0;;){
-            if (i <= 100 ){
-                i++;
-                if (i%2 == 0 ){
-                    sum+=i;
+            if (i > 100) {
+                break;
+            }
+            i++;
+            if (i%2 == 0 ){
+                sum+=i;
 
-                }continue;
-            }break;
-
+            }
         }
         System.out.println(sum);
 
@@ -78,7 +78,7 @@ public class Task5 {
                 number++;
             }else {
                 number++;
-                }
+            }
         }while (number <= 100);
         System.out.println(sum);
 
