@@ -12,9 +12,8 @@ public class ArrayTask4 {
         for (int i = 0; i < arr.length; i++) {
             dublicate = false;
             for (int k = 0; k < arr.length; k++){
-                if ( i != k && arr[i] == arr[k]){
+                if ( i != k && arr[i].equals(arr[k])){
                     dublicate = true;
-                    continue;
                 }
             }
             if (dublicate){
